@@ -1,6 +1,6 @@
 # Nova — Conversational Support Agent for E-commerce
 
-Nova is an AI-powered customer support agent built with the Claude API (Anthropic), designed for a retail/e-commerce context. It handles the most common post-sale interactions through natural, Spanish-language conversation.
+Nova is an AI-powered customer support agent designed for a retail/e-commerce context. It handles the most common post-sale interactions through natural, Spanish-language conversation.
 
 Built as a end-to-end demonstration of conversational AI design: intent mapping, tool use architecture, multi-turn dialogue flow, fallback handling, and escalation to human agents.
 
