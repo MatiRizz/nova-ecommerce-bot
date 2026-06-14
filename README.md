@@ -23,7 +23,7 @@ Built as a end-to-end demonstration of conversational AI design: intent mapping,
 ```
 nova-ecommerce-bot/
 ├── nova_ecommerce_bot.py   ← core file: policy prompt, tool definitions, business logic
-├── nova_chat.py            ← conversation loop connecting Nova to the Claude API
+├── nova_chat.py            ← conversation loop connecting Nova to the API
 ├── requirements.txt
 └── .gitignore
 ```
@@ -48,7 +48,7 @@ Implements the tool-use loop: sends the conversation history to the Claude API, 
 User message
      │
      ▼
-Claude API (Nova's policy + tool definitions + conversation history)
+API (Nova's policy + tool definitions + conversation history)
      │
      ├── stop_reason: "end_turn"  →  Nova replies in text
      │
